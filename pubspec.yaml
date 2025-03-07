@@ -1,0 +1,30 @@
+name: video_call_app
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  permission_handler: ^11.4.0
+  shared_preferences: ^2.2.0
+  agora_rtc_engine: ^6.2.0
+  mobx: ^2.5.0
+  flutter_mobx: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.2
+  build_runner: ^2.4.15
+  mobx_codegen: ^2.7.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
